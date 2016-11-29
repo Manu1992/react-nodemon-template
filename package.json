@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npm-run-all --parallel client server",
+    "dev": "npm-run-all --parallel database client server",
     "client": "cd client && npm start",
     "server": "cd server && npm start",
     "database": "mkdir -p ~/Documents/data/db && mongod --dbpath ~/Documents/data/db",
